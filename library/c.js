@@ -1,9 +1,15 @@
-const fruits = ['apple'];
+const fruits = ['apple', 'grapes'];
 
-fruits.push('apricot');
+function addFruit() {
+    const test = 'hello';
+    fruits.push(test + 'apricot');
+}
+
+addFruit();
 
 export default () => {
     fruits.push('orange');
+    console.log('c');
 };
 
 export const getFruits = () => {

@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "module": "index.js",
-  "sideEffects": [
-    "./c.js"
-  ],
+  "sideEffects": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "libraryb": "file:../libraryb/libraryb-1.0.0.tgz"
+  }
 }
